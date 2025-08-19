@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist", // Donde se va a compilar (git ignore)
+        "rootDir": "./src", // Carpeta principal donde se encuentra el codigo
+        "lib": ["ESNext"], // Lista de caracteristica que estan disponibles. Next: lo mas reciente
+        "target": "ESNext", // Nivel de version donde se compila, version mas nueva
+        "moduleResolution": "nodenext", // Sintaxis similares en typescript
+        "module": "NodeNext", // Formas de compilar los modulos
+        "strict": false, // Ejecuta typescript en modo 'false', poco estricto
+        "sourceMap": true, // Referencia a codigo typescript 
+        "esModuleInterop": true, // Permite modulo commonjs y ESM
+        "declaration": true, // Habilita archivos .d .ts ...
+    },
+    "include": ["src/**/*.ts"] // Incluye todos los archivos .ts en 'src' en la compilacion
+}
