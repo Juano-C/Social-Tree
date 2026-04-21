@@ -3,10 +3,20 @@
 ## --- Pagina web que busca la practica de distintas herramientas y lenguajes donde el usuario interactua para crear una tarjeta donde puede crear una cuenta  y poner sus distintas redes sociales, compartir el link.
 ## --- El proyecto tambien tiene autenticacion y verificacion de email y creacion de usuarios.
 
-- Orientada a la practica de:
-  - React Query
-  - Autenticacion
-  - Subida de archivos
+# Linktree Clone - Full Stack App
+
+Aplicación web inspirada en Linktree que permite a los usuarios crear una página personalizada con enlaces.
+
+## Características
+- Registro e inicio de sesión con autenticación
+- Uso de tokens para seguridad
+- Gestión de enlaces personalizados
+- Subida de imágenes
+- Backend con APIs REST
+- Integración con base de datos
+
+## Tecnologías
+Java | SQL | APIs REST | HTML | CSS | Bootstrap
 
 - incluye lenguajes y herramientas como:
   - Express
